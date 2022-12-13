@@ -1,0 +1,122 @@
+{
+    "Questions":[
+        {
+            "question": "As of 2017, Uber trails what domestic Indian technology company in the Indian rideshare market?",
+            "hint": "The company's name is nearly equivalent with a Spanish-language greeting.",
+            "option1": "Ola Cabs",
+            "option2": "Check Cabs",
+            "option3": "Bollywood Express",
+            "answer": "Ola Cabs"
+
+        },
+        {
+            "question": "What technology company found a surprise hit on its hands in early 2018 with a viral app comparing selfies to famous pieces of art?",
+            "hint": "Larry Page and Sergey Brin originally named this project backrub back in 1996.",
+            "option1": "Instragram",
+            "option2": "Snap Chat",
+            "option3": "Google",
+            "answer": "Google"
+
+        },
+        {
+            "question": "While working at Motorola in the 1970s, Martin Cooper invented what is typically considered the first cell phone. Cooper is a graduate of IIT: an Institute of Technology located in what state?",
+            "hint": "The 21st state to join the United states on December 3, 1818",
+            "option1": "New York",
+            "option2": "Illinois",
+            "option3": "New Mexico",
+            "answer": "Illinois"
+        },
+        {
+            
+            "question": "What man promoted the idea of sterile surgery while working at the Glasgow Royal Infirmary and is considered the pioneer of antiseptic surgery?",
+            "hint": "I wish I had a good hint for you.",
+            "option1": "Joseph Lister",
+            "option2": "Bob Sagat",
+            "option3": "Howie Mendel",
+            "answer": "Joseph Lister"
+        },
+        {
+            "question": "In February 2018, a federal lawyer announced that a former engineer from what tech company was not wrongly fired after his controversial memo sparked an internet backlash and led to his own termination?",
+            "hint" : "Larry Page and Sergey Brin originally named this project backrub in 1996.",
+            "option1" : "Google",
+            "option2" : "Rockstar Games",
+            "option3" : "Sony",
+            "answer" : "Google"
+        },
+        {
+           "question": "John Deere is a famed inventor of the plow and is also mentioned in the same breath as Cyrus McCormick, the inventor of what critical farming tool with a morbid-sounding name?",
+            "hint" : "Seaons dont fear this invention",
+            "option1" : "Mechanical Reaper",
+            "option2" : "Hoe",
+            "option3" : "Jack's super duper corn shredder",
+            "answer" : "Mechanical Reaper"
+        },
+        {
+            "question": "What disgraced startup was formerly valued at $9 billion dollars before a controversy regarding its technology began brewing in 2015, ultimately culminating in 2018 charges of 'massive fraud' by the CEO?",
+             "hint" : "The CEO claimed their technology could diagnose hundreds of diseases from just a drop of blood",
+             "option1" : "Theranos",
+             "option2" : "IBM",
+             "option3" : "Pfizer",
+             "answer" : "Theranos"
+         },
+         {
+            "question": "Name one of the two online payments companies founded in the late 1990s that eventually merged and became known as PayPal.",
+             "hint" : "Elon Musk started one of them",
+             "option1" : "Confinity and X.com",
+             "option2" : "Tesla and Apple",
+             "option3" : "DigiCoin and CompuServe",
+             "answer" : "Confinity and X.com"
+         },
+         {
+            "question" : "Doug Engelbart was the inventor of what computer accessory? The first one was made from wood.",
+             "hint" : "The predecessor to the trackpad.",
+             "option1" : "Joystick",
+             "option2" : "Mouse",
+             "option3" : "Video game controller",
+             "answer" : "Mouse"
+         },
+         {
+            "question" : "Laser is an acronym that stands for Light Amplification by Stimulated Emission of _______. What word fills in the blank?",
+             "hint" : "Despite what the comics say, this will not give you superpowers",
+             "option1" : "Radiation",
+             "option2" : "Radon",
+             "option3" : "Refraction",
+             "answer" : "Radiation"
+         },
+         {
+            "question" : "What Japanese automaker uses the expression 'Zoom-Zoom' which describes the 'emotion of motion' it claims is inherent in its cars?",
+             "hint" : "Also known for its Rotary engines",
+             "option1" : "Mazda",
+             "option2" : "Honda",
+             "option3" : "Ford",
+             "answer" : "Mazda"
+         },
+         {
+            "question" : "What 2017 book, subtitled 'An Intimate History,' focuses on the history of human molecular codes while spanning biology, history, neuroscience and more? The author previously won a Pulitzer Prize for a book on cancer.",
+             "hint" : "You have between 20,000 and 50,000 of these",
+             "option1" :"The Gene",
+             "option2" :"Cells",
+             "option3" :"Osmosis Jones",
+             "answer" : "The Gene"
+         },
+         {
+            "question" : "The 2.0 version of the Android operating system was nicknamed 'Eclair' and the 2.3 version was nicknamed 'Gingerbread.' In between was the five-letter name of a cold dessert which exploded in popularity in the 2000s with self-serve toppings.",
+             "hint" : "Sounds like a healthier ice cream",
+             "option1" : "Twinkie",
+             "option2" : "Brownie Sundae",
+             "option3" : "Froyo",
+             "answer" : "Froyo"
+         },
+         {
+            "question": "Supposedly pronounced as 'wizziwig,' what is the meaning of the acronym WYSIWYG? The phrase largely means that the printer will print what you see on your monitor.",
+             "hint": "Popular phrase to show there is nothing to hide.",
+             "option1" : "Shrink document to printable area",
+             "option2" :"Display all hidden fields and objects",
+             "option3" :"What you see is what you get",
+             "answer" : "What you see is what you get"
+             
+         }
+            
+    ]
+}
+  

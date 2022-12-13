@@ -1,0 +1,128 @@
+
+body{
+  background-color: aliceblue;
+  padding-top: 8%;
+}
+.B{
+  display: flex;
+  flex-direction: row;
+  border: 2px solid blue;
+  justify-content: center;
+}
+.Q{
+  font-size: large;
+  background-color: rgb(216, 241, 186);
+  border-bottom: 3px;
+  border-color: black;
+  border-style: groove;
+  padding: 10px;
+  min-height: 50px;
+}
+.C{
+  font-size: large;
+  background-color: rgb(216, 241, 186);
+  border-bottom: 3px;
+  border-color: black;
+  border-style: groove;
+  padding: 10px;
+}
+button:hover{
+  cursor: pointer;
+  box-shadow: 3px;
+}
+.question{
+    font-family: Arial;
+    animation: fadeIn 5s;
+}
+
+.fade-in-text {
+    font-family: Arial;
+    animation: fadeIn 5s;
+  }
+
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+  .gameInfo{
+    font-size: large;
+    background-color: beige;
+    border-bottom: 3px;
+    border-color: black;
+    border-style: double;
+    padding: 10px;
+  }
+.table{
+  table-layout:auto;
+}
+
+.button_slide {
+  flex-basis:auto;
+  flex-direction: row;
+  justify-content: center;
+  color: rgb(245, 107, 107);
+  border: 2px solid rgb(54, 6, 231);
+  border-radius: 0px;
+  padding: 18px 36px;
+  display: inline-block;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 24px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 #4c2ef4;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+  
+}
+
+.slide_diagonal:hover {
+  box-shadow: inset 400px 50px 0 0 #15a0f7;
+  text-transform: capitalize;
+}
+
+header{
+  background-color: rgb(252, 252, 252);
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  border-bottom: 1px solid black;
+  border-color: black;
+  border-radius: 5px;
+  font-size: 24pt;
+  color: rgb(0, 0, 0);
+  box-shadow: 0 0 5% 0 black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+#menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+}
+#menu li {
+display: inline;
+
+float:left;
+margin-left:1%;
+  text-decoration: none;
+  margin: 20px;
+
+}
+#menu a {
+display:block;
+padding:1%;
+text-decoration:none;
+color:#009;
+}
+#menu a:hover {
+background-color:#009;
+color:#fff;
+}

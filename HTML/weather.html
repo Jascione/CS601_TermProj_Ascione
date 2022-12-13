@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <script src="./scripts/weather.js"></script>
+<head>
+<title>Current Local Weather</title>
+<link href="./styleSheets/styles.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<header>
+    <nav>
+        <ul id="menu">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="family.html">Family</a></li>
+            <li><a href="pets.html">Pets</a></li>
+            <li><a href="trivia.html">Trivia Game!</a></li>
+            <li><a href="weather.html">Local Weather</a></li>
+        </ul>
+    </nav>
+</header>
+<section>
+    <form class="cityName" onsubmit="getWeather2(document.getElementById('cityName').value)">
+        <label for="cityName">Enter your City:</label>
+        <input type="text" id="cityName" name="cityName">	
+        <button type="button" onclick="getWeather2(document.getElementById('cityName').value)">Load Weather</button> 
+    </form>
+    
+    
+    <table class="weatherTable">
+        <tr>
+            <th>Weather</th>
+                <th scope="col">Min Temp</th>
+                <th scope="col">Current</th>
+                <th scope="col">Max</th>
+                <th scope="col">Sky</th>
+                <th scope="col">Current Conditions</th>    
+        </tr>
+        <tr>
+            <th scope="row">Temperature</th>
+            <td id="morning"></td>
+            <td id="afternoon"></td>
+            <td id="evening"></td>
+            <td id="funIcon"></td>
+            <td id="currentCondition1"></td>
+            
+        </tr>
+        </table>
+
+        
+</section>
+</body>
+<footer>
+    Webpage designed by Joe Ascione <span class="footerSpan">&#129430;</span>
+</footer>
+</html>

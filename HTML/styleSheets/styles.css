@@ -1,0 +1,255 @@
+.weatherWrapper{
+    padding: 5%;
+}
+
+.carousel{    
+        display: block;
+        max-width:25%;
+        max-height:25%;
+        min-width: 25%;
+        min-height: 25%;
+        width: auto;
+        height: auto;
+      }
+.outerCarousel{
+        max-width:100%;
+        max-height:50%;
+        min-width: 50%;
+        min-height: 50%;
+        width: auto;
+        height: auto;
+}
+section{
+    padding-top: 3%;
+    padding: 3%;
+    
+}
+.footerSpan{
+    font-size:25px;
+}
+.cityName{
+    padding: 2%;
+}
+header{
+    background-color: rgb(252, 252, 252);
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid black;
+    border-color: black;
+    border-radius: 5px;
+    font-size: 36pt;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 25px 0 black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
+  }
+#menu li {
+	display: inline;
+	
+	float:left;
+	margin-left:2px;
+    text-decoration: none;
+    margin: 20px;
+
+}
+#menu a {
+	display:block;
+	padding:3px;
+	text-decoration:none;
+	color:#009;
+}
+#menu a:hover {
+	background-color:#009;
+	color:#fff;
+}
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    margin: 3em;
+    background-color: rgb(184, 183, 183);
+}
+h1{
+    font-size: 18pt;
+    color: aliceblue;
+    text-decoration: underline;
+}
+p{
+    font-size: large;
+    color: blue;
+}
+video{
+    width: 240px;
+    height: 320px;
+}
+table, th, td {
+    border: 1px solid;
+    
+  }
+li{
+    font-size: 18pt;
+    color:azure;
+    
+}
+h4{
+    font-size: 14pt;
+}
+footer{
+    background-color: blanchedalmond;
+    font-size: 12pt;
+    font-weight: lighter;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 50px;
+}
+#special {
+    font-size: 12pt;
+    color: rgb(92, 50, 50);
+    text-decoration: underline;
+}
+#specialDino{
+font-size: 36pt;
+color: aliceblue;
+background-image:url(images/Dino.jpg);
+background-repeat: no-repeat;
+background-position:center;
+background-size: 40px;
+}
+#specialPaw{
+    color: aliceblue; 
+    background-image:url(images/pprints.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: 75px;
+}
+.row {
+    display: flex;
+  }
+.column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+  @media (max-width: 600px){
+   
+    p{
+    font-size: larger;
+    color:white
+    }
+
+    body{
+    background-color: black;
+    }
+
+    h1{
+        font-size: larger;
+        color: white;
+        text-decoration: underline;
+    }    
+    li{
+            font-size: 18pt;
+            color:white;
+        }
+
+    h4{
+            font-size: 14pt;
+            color: white;
+        }
+
+    footer{
+            background-color: blanchedalmond;
+            font-size: 12pt;
+            font-weight: lighter;
+            border: 1px solid black;
+            border-radius: 20px;
+            padding: 50px;
+        }
+
+    video{
+            width: 240px;
+            height: 320px;
+        }
+
+    table, th, td {
+            border: 1px solid;
+            border-color: white;
+            color: white;
+}
+}
+
+@Media (max-width: 480px){  
+    video{
+        max-width: 75%;
+    }
+  
+    
+    body {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 14pt;
+        margin: 3em;
+        background-color: rgb(184, 183, 183);
+    }
+    h1{
+        font-size: 18pt;
+        color: rgb(7, 136, 250);
+        text-decoration: underline;
+    }
+    p{
+        font-size: large;
+        color: rgb(238, 10, 10);
+    }
+    video{
+        width: 240px;
+        height: 320px;
+    }
+    table, th, td {
+        border: 1px solid;
+        
+      }
+    li{
+        font-size: 18pt;
+        color:azure
+    }
+    h4{
+        font-size: 14pt;
+    }
+    footer{
+        background-color: blanchedalmond;
+        font-size: 12pt;
+        font-weight: lighter;
+        border: 1px solid black;
+        border-radius: 20px;
+        padding: 50px;
+    }
+    #special {
+        font-size: 12pt;
+        color: rgb(92, 50, 50);
+        text-decoration: underline;
+    }
+    #specialDino{
+    font-size: 36pt;
+    color: aliceblue;
+    background-image:url(images/Dino.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: 40px;
+    }
+}
+
+@media (hover:hover) {
+    a:hover {
+        color:black;
+        background-color:whitesmoke;
+        text-decoration:underline;
+        }
+}

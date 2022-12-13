@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+<title>This is my family</title>
+<link href="./styleSheets/styles.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script type="module" src="./scripts/scripts.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul id="menu">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="family.html">Family</a></li>
+                <li><a href="pets.html">Pets</a></li>
+                <li><a href="trivia.html">Trivia Game!</a></li>
+                <li><a href="weather.html">Local Weather</a></li>
+            </ul>
+        </nav>
+    </header>
+<br>    
+
+<section>    
+    <p>These are my boys Ethan and Noah. Ethan is 4.5 years old and Noah just turned 6 months in the beginning of November.
+    I asked Ethan for his top five favorite foods and he replied:</p>
+    <ul>
+        <li>Chicken Cutlets</li>
+        <li>Peanut Butter and Jelly</li>
+        <li>Corn Muffins</li>
+        <li>Strawberries</li>
+        <li>Rainbow Cookies</li>
+    </ul>
+
+An Image Carousel of my kids made with Vue.js
+<div id="photoSwap">
+    <div class="outerCarousel">
+    <figure>
+    <img class="carousel" :src = currentImage>
+    <figcaption class="outerCarousel">
+        {{ currentFigCaption }}
+   </figcaption>
+    </figure>
+</div>
+    <div class="controls">
+        <button  v-on:click="swapImageBwd">Prev.</button>
+        <button  v-on:click="swapImageFwd">Next</button>
+    </div>
+
+</div>
+</section>
+<figure> 
+<video controls>
+<source src="images/EandBabyDino.MP4" type="video/mp4">
+</video>
+<figcaption>
+    <h3><i>That time Ethan met a baby Dino</i></h3>
+</figcaption>
+ 
+</figure> 
+<footer>
+    Webpage designed by Joe Ascione <span class="footerSpan">&#129430;</span>
+</footer>
+</body>
+</html>

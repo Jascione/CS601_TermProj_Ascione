@@ -1,0 +1,195 @@
+@media (min-width: 601px) and (max-width: 1250px) { 
+     header{
+        background-color: blanchedalmond;
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        border: 5px solid black;
+        border-color: black;
+        border-radius: 25px;
+    }
+    body {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 14pt;
+        margin: 3em;
+        background-color: rgb(184, 183, 183);
+    }
+    h1{
+        font-size: 18pt;
+        color: aliceblue;
+        text-decoration: underline;
+    }
+    p{
+        font-size: large;
+        color: blue;
+    }
+    video{
+        width: 240px;
+        height: 320px;
+    }
+    table, th, td {
+        border: 1px solid;
+        width: 100%;
+      }
+    li{
+        font-size: 18pt;
+        color:azure
+    }
+    h4{
+        font-size: 14pt;
+    }
+    footer{
+        background-color: blanchedalmond;
+        font-size: 12pt;
+        font-weight: lighter;
+        border: 1px solid black;
+        border-radius: 20px;
+        padding: 50px;
+    }
+    #special {
+        font-size: 12pt;
+        color: rgb(92, 50, 50);
+        text-decoration: underline;
+    }
+    #specialDino{
+    font-size: 36pt;
+    color: aliceblue;
+    background-image:url(images/Dino.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: 40px;
+    }
+    .row {
+        display: flex;
+      }
+    .column {
+        flex: 33.33%;
+        padding: 5px;
+      }
+    
+    }
+
+    @media (min-width: 481px) and (max-width: 600px){
+        header{
+            background-color: whitesmoke;
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+            border: 5px solid black;
+            border-color: black;
+            border-radius: 25px;
+        }
+    
+        p{
+        font-size: larger;
+        color:white
+        }
+    
+        body{
+        background-color: black;
+        }
+    
+        h1{
+            font-size: larger;
+            color: white;
+            text-decoration: underline;
+        }    
+        li{
+                font-size: 18pt;
+                color:white;
+            }
+    
+        h4{
+                font-size: 14pt;
+                color: white;
+            }
+    
+        footer{
+                background-color: blanchedalmond;
+                font-size: 12pt;
+                font-weight: lighter;
+                border: 1px solid black;
+                border-radius: 20px;
+                padding: 50px;
+            }
+    
+        video{
+                width: 240px;
+                height: 320px;
+            }
+    
+        table, th, td {
+                border: 1px solid;
+                width:50%;
+                border-color: white;
+                color: white;
+    }
+}
+
+    @Media (max-width: 480px){  
+    video{
+        max-width: 75%;
+    }
+    header{
+        background-color: rgb(32, 204, 75);
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        border: 5px solid black;
+        border-color: rgb(9, 12, 236);
+        border-radius: 25px;
+    }
+    body {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 14pt;
+        margin: 3em;
+        background-color: rgb(184, 183, 183);
+    }
+    h1{
+        font-size: 18pt;
+        color: rgb(7, 136, 250);
+        text-decoration: underline;
+    }
+    p{
+        font-size: large;
+        color: rgb(238, 10, 10);
+    }
+    video{
+        width: 240px;
+        height: 320px;
+    }
+    table, th, td {
+        border: 1px solid;
+        width: 100%;
+      }
+    li{
+        font-size: 18pt;
+        color:azure
+    }
+    h4{
+        font-size: 14pt;
+    }
+    footer{
+        background-color: blanchedalmond;
+        font-size: 12pt;
+        font-weight: lighter;
+        border: 1px solid black;
+        border-radius: 20px;
+        padding: 50px;
+    }
+    #special {
+        font-size: 12pt;
+        color: rgb(92, 50, 50);
+        text-decoration: underline;
+    }
+    #specialDino{
+    font-size: 36pt;
+    color: aliceblue;
+    background-image:url(images/Dino.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: 40px;
+    }
+}
+
+@media (hover:hover) {
+    a:hover {
+        color:black;
+        background-color:whitesmoke;
+        text-decoration:underline;
+        }
+}

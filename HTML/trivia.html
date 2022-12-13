@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type="module" src="./scripts/trivia.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.0"></script>
+
+    <link rel="stylesheet" href="./styleSheets/Tstyles.css">
+    <title>Trivia</title>
+    <base href=".">
+</head>
+<body>
+<header>
+        <nav>
+            <ul id="menu">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="family.html">Family</a></li>
+                <li><a href="pets.html">Pets</a></li>
+                <li><a href="trivia.html">Trivia Game!</a></li>
+                <li><a href="weather.html">Local Weather</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="gameInfo" id="plyrScr">
+        <table>
+            <tr>
+                <td> Player High Score =</td>
+                <td colspan="2" v-bind:style="{ fontStyle: fontStyle, fontWeight: fontWeight, color: fontColor }"> {{ highScore }}</td>
+        </table>
+        </tr>
+        <table>
+            <tr>
+                <td>Round =</td>
+                <td colspan="2" v-bind:style="{ fontStyle: fontStyle, fontWeight: fontWeight, color: fontColor }"> {{ roundNumber }}</td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td>Game Count =</td>
+                <td colspan="2" v-bind:style="{ fontStyle: fontStyle, fontWeight: fontWeight, color: fontColor }"> {{ gameCount }}</td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td>Hints Remaining =</td>
+                <td colspan="2" v-bind:style="{ fontStyle: fontStyle, fontWeight: fontWeight, color: fontColor }">{{ hintsRemaining }}</td>
+            </tr>
+        </table>
+
+    </div>
+    <p class="Q" id="question"></p>
+    <div class ="B" id="buttons" v-show="hidden">
+        <button class="button_slide slide_diagonal" id="option1"></button>
+        <button class="button_slide slide_diagonal" id="option2"></button>
+        <button class="button_slide slide_diagonal" id="option3"></button>
+    </div>
+
+    <div class="C" id="app">
+        <transition name="fade">
+            <p v-if="communicate" key="comm1a" class="wrapper">
+                {{ communication1 }}
+            </p>
+            <p v-else key="comm1b" class="wrapper">
+                {{ communication1 }}<br>
+                {{ communication2 }}<br>
+                <button v-on:click="playNewGame">Play Again?</button>
+            </p>
+    </div>
+
+    <div id="hint">
+        <table>
+            <tr>
+                <td><button v-bind:class="{ disabled: !hintAvailable }" v-bind:disabled="!hintAvailable"
+                        v-on:click="showHint">Hint</button></td>
+
+                <td colspan="2">
+                    <p v-if="displayHint" key="hinties">
+                        Your hint is: {{ hintText }}
+                    </p>
+                </td>
+                
+            </tr>
+        </table>
+    </div>
+    <div id="start">
+        <p v-if="!gameStarted">
+            <button id="start" v-on:click="startGame">Start Trivia!</button>
+        </p>
+    </div>
+<footer>
+    Webpage designed by Joe Ascione <span class="footerSpan">&#128572;</span>
+</footer>
+</body>
+</html>
